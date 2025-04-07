@@ -95,8 +95,8 @@ tk.Frame(frame, **frame_style).place(x=35, y=185)
 
 # Redimensionnement avec subsample (divise la taille) ou zoom (multiplie la taille)
 # Chargement et réduction importante des icônes
-eye_open_icon = PhotoImage(file="C:\\Users\\HP-PC\\Desktop\\GL\\G1\\S2\\projet S2\\Projet1\\images\\eye.png").subsample(17, 17)
-eye_closed_icon = PhotoImage(file="C:\\Users\\HP-PC\\Desktop\\GL\\G1\\S2\\projet S2\\Projet1\\images\\hidden.png").subsample(17, 17)
+eye_open_icon = PhotoImage(file="C:\\Users\\HP-PC\\Desktop\\GL\\G1\\S2\\projet S2\\Projet1\\images\\eye.png").subsample(19, 19)
+eye_closed_icon = PhotoImage(file="C:\\Users\\HP-PC\\Desktop\\GL\\G1\\S2\\projet S2\\Projet1\\images\\hidden.png").subsample(19, 19)
 
 # === Password ===
 Label(frame, text="Mot de passe", bg='white', fg='black', font=('Arial', 10)).place(x=35, y=205)
